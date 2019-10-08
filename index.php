@@ -69,8 +69,8 @@ else
 }
 ?>
 <li class="i-screen"><a href="screenshots.php">View daily Screenshot</a></li>
-<li class="i-twitter"><a href="#">Twitter</a></li>
-<li class="i-youtube"><a href="#">YouTube Channel</a></li>
+<li class="i-twitter"><a href="https://github.com/dginovker/2006rebotted">Server Source</a></li>
+<li class="i-youtube"><a href="https://github.com/dginovker/2006rebotted-Website">Website Source</a></li>
 
 </ul>
 </fieldset>
