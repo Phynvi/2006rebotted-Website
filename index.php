@@ -197,8 +197,8 @@ foreach($categories as $category)
 </div>
 <div class="newscontainer">
 <div class="buttons">
-<a href="create/" class="button" id="button-left"><span class="lev1"></span><br style="line-height: 200%">Create a free account<br>(New user)</a>
-<a href="<?php echo ($user->isLoggedIn()) ? ($config['play_url'] != '') ? $config['play_url'] : 'forums/' : 'login.php'; ?>" class="button" id="button-right"><span class="lev1"></span><br style="line-height: 200%">Play <?php echo $data['wb_abbrev']; ?><br>(Existing user)</a>
+<a href="create/" class="button" id="button-left"><span class="lev1"></span><br style="line-height: 200%">Create a forum account<br>(New user)</a>
+<a href="<?php echo ($user->isLoggedIn()) ? ($config['play_url'] != '') ? $config['play_url'] : 'forums/' : 'login.php'; ?>" class="button" id="button-right"><span class="lev1"></span><br style="line-height: 200%">Download <?php echo $data['wb_abbrev']; ?><br>(Parabot client)</a>
 </div>
 <img class="narrowscroll-top" src="img/scroll/scroll457_top.gif" alt="" width="466" height="50">
 <div class="narrowscroll-bg">
